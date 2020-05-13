@@ -65,6 +65,7 @@ function validateForms(form) {
         }
     });
 };
+
 validateForms('#consultation-form');
 validateForms('#consultation form');
 validateForms('#order form');
