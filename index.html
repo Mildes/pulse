@@ -1,23 +1,24 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="IE = edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Pulse</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/font.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/tiny-slider.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css" />
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 
 <body>
-    <section class="promo">
+    <section id="up" class="promo">
         <div class="container">
             <header class="header">
                 <a href="#" class="header__logo">
-                    <img src="icons/logo.png">
+                    <img src="icons/logo.png" alt="logo">
                 </a>
                 <div class="header__official">
                     Официальный представитель
@@ -63,14 +64,14 @@
             <h2 class="title">НАШИ ПРЕИМУЩЕСТВА</h2>
             <div class="advantage__wrapper">
                 <div class="advantage__item">
-                    <img src="icons/advantage/1.png" class="advantage__icon">
+                    <img src="icons/advantage/1.png" class="advantage__icon" alt="advantage">
                     <div class="advantage__subtitle">Делимся опытом</div>
                     <div class="advantage__descr">Наши сотрудники всегда готовы поделиться своим опытом,
                         так как сами бегают полумарафоны, переплыли Босфор, готовятся к соревнованиям по триатлону!
                     </div>
                 </div>
                 <div class="advantage__item">
-                    <img src="icons/advantage/2.png" class="advantage__icon">
+                    <img src="icons/advantage/2.png" class="advantage__icon advantage__icon_animated" alt="advantage">
                     <div class="advantage__subtitle">Заботимся о здоровье</div>
                     <div class="advantage__descr">
                         Мы работаем для того,
@@ -79,7 +80,7 @@
                     </div>
                 </div>
                 <div class="advantage__item advantage__prn">
-                    <img src="icons/advantage/shoe.png" class="advantage__icon">
+                    <img src="icons/advantage/shoe.png" class="advantage__icon" alt="shoes">
                     <div class="advantage__subtitle">Учим бегать</div>
                     <div class="advantage__descr">
                         Помогаем с обучением
@@ -108,18 +109,17 @@
         </div>
     </section>
 
-    <section class="carousel">
+    <div class="carousel">
         <div class="container">
             <div class="carousel__inner">
                 <div><img src="img/pulsometr.png" alt="pulsometr"></div>
                 <div><img src="img/pulsometr1.png" alt="pulsometr"></div>
                 <div><img src="img/pulsometr2.png" alt="pulsometr"></div>
             </div>
-            <button type="button" class="prev"><img src="icons/left.png"></button>
-            <button type="button" class="next"><img src="icons/right.png"></button>
+            <button type="button" class="prev"><img src="icons/left.png" alt="arrow"></button>
+            <button type="button" class="next"><img src="icons/right.png" alt="arrow"></button>
         </div>
-        </div>
-    </section>
+    </div>
     <section id="catalog" class="catalog">
         <div class="container">
             <h1 class="title">Каталог пульсометров</h1>
@@ -139,7 +139,7 @@
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
-                            <img src="img/pulsometr3.png" class="catalog-item__img">
+                            <img src="img/pulsometr3.png" class="catalog-item__img" alt="pulsometr">
                             <div class="catalog-item__subtitle">
                                 Пульсометр Polar FT1
                             </div>
@@ -147,6 +147,7 @@
                                 ритме</div>
                             <a href="#" class="catalog-item__link">ПОДРОБНЕЕ</a>
                         </div>
+                        
                         <ul class="catalog-item__list ">
                             <li>Вы услышите звуковое оповещение о нужном пульсе во время тренировки;</li>
                             <li>Вы увидите информативный графический индикатор целевых тренировочных зон пульса;</li>
@@ -167,7 +168,7 @@
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
-                            <img src="img/pulsometr3.png" class="catalog-item__img">
+                            <img src="img/pulsometr3.png" class="catalog-item__img" alt="pulsometr">
                             <div class="catalog-item__subtitle">
                                 Пульсометр Polar R1
                             </div>
@@ -195,7 +196,7 @@
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
-                            <img src="img/pulsometr3.png" class="catalog-item__img">
+                            <img src="img/pulsometr3.png" class="catalog-item__img" alt="pulsometr">
                             <div class="catalog-item__subtitle">
                                 Пульсометр Polar FT1
                             </div>
@@ -223,7 +224,7 @@
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
-                            <img src="img/pulsometr3.png" class="catalog-item__img">
+                            <img src="img/pulsometr3.png" class="catalog-item__img" alt="pulsometr">
                             <div class="catalog-item__subtitle">
                                 Пульсометр Polar FT1
                             </div>
@@ -251,7 +252,7 @@
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
-                            <img src="img/pulsometr3.png" class="catalog-item__img">
+                            <img src="img/pulsometr3.png" class="catalog-item__img" alt="pulsometr">
                             <div class="catalog-item__subtitle">
                                 Пульсометр Polar FT1
                             </div>
@@ -279,7 +280,7 @@
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
-                            <img src="img/pulsometr3.png" class="catalog-item__img">
+                            <img src="img/pulsometr3.png" class="catalog-item__img" alt="pulsometr">
                             <div class="catalog-item__subtitle">
                                 Пульсометр Polar FT1
                             </div>
@@ -310,7 +311,7 @@
                 <div class="catalog-item">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
-                            <img src="img/pulsometr3.png" class="catalog-item__img">
+                            <img src="img/pulsometr3.png" class="catalog-item__img" alt="pulsometr">
                             <div class="catalog-item__subtitle">
                                 Пульсометр Polar FT1
                             </div>
@@ -341,7 +342,7 @@
                 <div class="catalog-item catalog-item_fit">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
-                            <img src="img/pulsometr3.png" class="catalog-item__img">
+                            <img src="img/pulsometr3.png" class="catalog-item__img" alt="pulsometr">
                             <div class="catalog-item__subtitle">
                                 Пульсометр Polar FT1
                             </div>
@@ -369,7 +370,7 @@
                 <div class="catalog-item catalog-item_fit">
                     <div class="catalog-item__wrapper">
                         <div class="catalog-item__content catalog-item__content_active">
-                            <img src="img/pulsometr3.png" class="catalog-item__img">
+                            <img src="img/pulsometr3.png" class="catalog-item__img" alt="pulsometr">
                             <div class="catalog-item__subtitle">
                                 Пульсометр Polar FT1
                             </div>
@@ -398,12 +399,12 @@
 
         </div>
     </section>
-    <section class="reviews">
+    <div class="reviews">
         <div class="container">
             <div class="title">отзывы клиентов</div>
             <div class="reviews__wrapper">
-                <div class="reviews__item">
-                    <img src="img/reviews/1.png" class="reviews__img">
+                <div class="reviews__item wow animate__fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
+                    <img src="img/reviews/1.png" class="reviews__img" alt="reviews">
                     <div class="reviews__content">
                         <div class="reviews__name">Ирина Иванченко</div>
                         <div class="reviews__sub">2 полумарафона</div>
@@ -418,8 +419,8 @@
                     </div>
                 </div>
                 <hr>
-                <div class="reviews__item">
-                    <img src="img/reviews/2.png" class="reviews__img">
+                <div class="reviews__item wow animate__fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
+                    <img src="img/reviews/2.png" class="reviews__img" alt="reviews">
                     <div class="reviews__content">
                         <div class="reviews__name">Иван Сёмочкин</div>
                         <div class="reviews__sub">1 полумарафон</div>
@@ -434,8 +435,8 @@
                     </div>
                 </div>
                 <hr>
-                <div class="reviews__item">
-                    <img src="img/reviews/3.png" class="reviews__img">
+                <div class="reviews__item wow animate__fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
+                    <img src="img/reviews/3.png" class="reviews__img" alt="reviews">
                     <div class="reviews__content">
                         <div class="reviews__name">Юлия Дашкина</div>
                         <div class="reviews__sub">2 полумарафона</div>
@@ -453,7 +454,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <footer class="footer">
         <div class="footer__map">
             <iframe
@@ -503,12 +504,15 @@
                 в ближайшее время!</div>
         </div>
     </div>
+    <a href="#up" class="pageup">
+        <img src="icons/chevron-circle-up-solid.svg" alt="up">
+    </a>
 
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.2/min/tiny-slider.js"></script>
     <script src="js/jquery.validate.min.js"></script>
     <script src="js/jquery.maskedinput.min.js"></script>
+    <script src="js/wow.min.js"></script>
     <script src="js/script.js"></script>
 </body>
 
